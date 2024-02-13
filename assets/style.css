@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.container{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbar{
+ padding-top: 60px;
+ color: grey;
+ display: flex;
+ justify-content: space-between;
+}
+.backgraund {
+background-image: url(/assets/img/bg-masthead.jpg);
+}
+.navbar .leftnavbar a{
+color: black;
+font-weight: 500;
+padding: 0.9rem;
+text-decoration: none;
+font-size: 25px;
+}
+.navbar .rightnavbar a{
+color: black;
+font-weight: 500;
+padding: 0.9rem;
+text-decoration: none;
+font-size: 25px;
+}
+.middle{
+    text-align: center;
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-bottom: 200px;
+}
+.middle h1{
+    font-size: 250px;
+    background: linear-gradient(to bottom white,grey);
+}
+.middle p{
+    font-size: 35px;
+    font-weight: 250;
+    color: grey;
+    padding-top: 25px;
+}
+.middle a{
+    font-size: 25px;
+    margin-top: 100px;
+    border-radius: 6px;
+    color: white;
+    background-color: #64A19D;
+    display: inline-block;
+    border: 25px solid #64A19D;
+    padding: 0 40px;
+}
+.middlefooter{
+    text-align: center;
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-bottom: 200px;
+    flex-direction: column;
+}
+.middlefooter h1{
+    font-size: 35px;
+    font-weight: 250;
+    color: grey;
+    padding-top: 25px;
+    background-color: black;
+}
+
